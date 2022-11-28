@@ -1,0 +1,33 @@
+*{
+    box-sizing:border-box;
+}
+
+/*.exemplo{
+    border:1px solid #00FF00;
+    padding:10px;
+    margin:10px;
+}*/
+
+body{
+    margin:0px;
+}
+
+/*
+.exemplo{
+    border:1px solid #00FF00;
+    padding-left:10px;
+    padding-top:10px;
+}*/
+
+.exemplo{
+    background-color: #12c02f;
+    width:400px;
+    height:400px;
+    margin:20px;
+    border:2px, #000000;
+}
+/*
+img{
+    width:inherit;
+    max-width:450px;
+}*/
