@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Teste</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <h1>Página de Teste</h1>
+    
+    <h2>Área de cadastro</h2>
+    <form action="paginas/login.html" method="GET">
+
+        <input type="text" name="usuario" value="123" />
+
+        text, email, password
+        radio
+        checkbox
+        submit
+
+        <input type="submit" value="Fazer cadastro" />
+    </form>
+
+    <h2>Área de login / SELECT</h2>
+    <form action="paginas/login.html" method="GET">
+        <select name="order" size="2" multiple>
+            <option value="bestseller">Mais Vendidos</option>
+            <option value="last">Recentes</option>
+        </select>
+
+        <input type="submit" value="Fazer cadastro" />
+    </form>
+
+    <h2>TEXTAREA</h2>
+    <form action="paginas/login.html" method="GET">
+        <textarea name="descricao"></textarea>
+
+        <input type="submit" value="Fazer cadastro" />
+    </form>
+
+    <h2>BUTTON</h2>
+    <form action="paginas/login.html" method="GET">
+        <input type="text" name="nome" />
+
+        <button>Texto do própio botão</button> Fazer o mesmo que o submit, e funciona fora do <form>
+
+        <input type="submit" value="Fazer cadastro" />
+    </form>
+
+    <h2>LABEL</h2>
+    <form action="paginas/login.html" method="GET" >
+        <label>
+            Nome Complete:<br/>
+            <input type="text" name="nome"/>
+        </label><br/><br/>
+
+        <input type="checkbox" id="teste"/>
+        <label for="teste">Eu declaro que li e aceito os termos de uso.<label>
+        <button>Fazer Cadastro</button>
+    </form>
+
+    <h2>Formatando formulários no CSS </h2>
+    <form action="paginas/login" method="GET">
+
+        <label>
+            Nome Complete:<br/>
+            <input type="text" name="nome"/>
+        </label><br/>
+        <label>
+            Descrição:<br/>
+            <textarea name="descricao"></textarea>
+        </label>
+        <br/>
+        <label>
+            Categoria:<br/>
+            <select name="categoria">
+                <option value="1">Categoria 1</option>
+                <option value="2">Categoria 2</option>
+                <option value="3">Categoria 3</option>
+                <option value="4">Categoria 4</option>
+                <option value="5">Categoria 5</option>
+            </select>
+        </label>
+
+        <label>
+            <input type="checkbox" />Eu declaro que li e aceito os <a href="paginas/termos.html" target="_blank">termos de uso</a>
+        </label>
+
+        <button>Fazer Cadastro</button>
+    </form>
+</body>
+</html>
