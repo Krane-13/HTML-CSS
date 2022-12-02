@@ -1,0 +1,7 @@
+temos o object-fix que faz o processo de redefinição de uma imagem
+o atributo mais usado é o cover que faz o redefinição e corta a imagem
+
+Orientation no @media
+ @media orientation serve para configurar e organizar os elementos que estão na tela dependendo de como ela é, baseada nas dimensões visiveis. A @media orientation não trabalha com a posição real do celular!
+Se a largura da tela visivel for maior que a altura, vai ser interpretado como se a tela estivesse horizontal.
+Se a altura da tela vísivel for maior, então será interpretado como se a tela estive estivesse vertical.
