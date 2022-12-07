@@ -1,0 +1,8 @@
+Placeholder é um complemento que faz a ideia de o nome do campo ficar dentro e quando copmeça
+a escrever some
+
+Autofocus é o complemento que já deixa o cursor pronto para digitar
+
+Autocomplete serve para fazer o complemento dos dados nas caixas de input
+
+bliblioteca de css: github/necolas/normalize.css/
