@@ -6,3 +6,9 @@ Autofocus é o complemento que já deixa o cursor pronto para digitar
 Autocomplete serve para fazer o complemento dos dados nas caixas de input
 
 bliblioteca de css: github/necolas/normalize.css/
+
+o site trabalha diferente de navegador para navegador por conta da maquina de HTML CSS da cada um mais comum webkit
+
+TAG MAIN só ter uma na página para referenciar o conteudo principal, coisas como header, footer e menu deixar o main no conteudo principal, pode ser decedente da tag section
+
+TAG ADDRESS serve para indicar dados como email, endereço e quem criou o site
