@@ -9,17 +9,25 @@
         .container{
             display:flex;
             height: 500px;
+            flex-wrap:wrap;
+            flex-direction:row;
             justify-content: center;
-            align-items: center;
+            align-items:flex-start;
             flex-direction: row;
             background-color: #DDDDDD;
-            margin: 10px;
+            align-content:space-between ;
         }
         .container div{
+            width:100px;
+            height:100px;
             background-color: #FF0000;
             margin: 10px;
             padding:10px;
             font-size:18;
+        }
+        .div10{
+            align-self:flex-start;
+            order:1
         }
     </style>
 </head>
@@ -35,7 +43,13 @@
         <div>7</div>
         <div>8</div>
         <div>9</div>
-        <div>10</div>
+        <div class="div10">10</div>
+        <!--Como os demais não foi especificado a ordem, como padrão são 0 e depois vem a ordem registrada-->
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
     </div>
 
 </body>
