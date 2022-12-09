@@ -1,0 +1,4 @@
+flex-wrap: wrap; = faz com que o conteudo va para a linha de baixo
+flex-direction: column; faz com que o display fique em colunas
+flex-flow:; especifica duas coisas ao mesmo tempo, row/column e wrap
+justify-content: center; conteudo justificado no meio, sempre vai no container
