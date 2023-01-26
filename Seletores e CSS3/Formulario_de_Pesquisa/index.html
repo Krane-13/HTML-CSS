@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro de Dev</title>
+</head>
+<header>
+    <div class="titulo">
+        <h1>Cadastro de Devs</h1>
+
+    </div>
+    <div class="subtitulo">
+        <h3>Complete suas informações</h3>
+
+    </div>
+</header>
+<body>
+    <div class="fundo">
+        <label>
+            Nome completo:<br/>
+            <input type="text" name="nome" />
+        </label> <br/>
+        
+        <label>Email:<br/>
+            <input type="email" name="email"/>
+        </label><br/><br/>
+
+        <label>
+            De qual lado da aplicação você desenvolve?<br/>
+            <input type="checkbox" name="front-end" >Front-end<br/>
+            <input type="checkbox" name="back-end" >Back-end<br/>
+            <input type="checkbox" name="fullstack">Fullstack
+        </label><br/>
+    <br/>
+        <label>
+            Senoridade:<br/>
+            <select name="categoria">
+                <option value="1">Senior</option>
+                <option value="2">Pleno</option>
+                <option valuee="3">Júnior</option>
+            </select>
+        </label><br/><br/>
+
+        <label>
+            Conte um pouco sobre você:<br/>
+            <textarea name="descricao"></textarea>
+        </label>
+    </div>
+</body>
+</html>

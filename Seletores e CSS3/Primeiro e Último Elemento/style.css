@@ -1,0 +1,15 @@
+div {
+    background-color: #0404e9;
+    width:100px;
+    height:100px;
+}
+
+div:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+div:last-of-type {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:  20px;
+}
